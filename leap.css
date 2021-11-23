@@ -387,6 +387,41 @@ height: 650px;
   opacity: 0.1;
 }
 
+/*---------------Promotion---------------*/
+#promotions{
+  padding: 30px;
+}
+#promotions h1{
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#promotions .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+#promotions .column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+#promotions .column img:hover {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+#promotions .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*---------------Images-------------*/
 
 
